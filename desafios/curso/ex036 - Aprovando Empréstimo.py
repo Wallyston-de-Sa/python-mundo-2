@@ -15,7 +15,7 @@ ano = int(input('Em quantos anos deseja efetuar o pagamento do imóvel? '))
 # Processamento
 mensal = ano * 12
 prestacao = valor_casa / mensal
-permissao = salario * 0.30
+permissao = salario * 30/100
 
 # Saída de resultados
 print('\nSeu salário é de R${:.2f}. A prestação será de R${:.2f}.'.format(salario, prestacao))

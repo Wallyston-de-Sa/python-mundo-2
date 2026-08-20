@@ -1,7 +1,7 @@
 # Escreva um programa que leia um número inteiro qualquer e pela para o usuário escolher qual será a base de conversão: 1- Binário. 2- Octal. 3- Hexadecimal.
 
 # Entrada de dados
-num = int(input('Digite um número qualquer: '))
+num = int(input('Digite um número inteiro: '))
 
 print('ESCOLHA EM QUAL BASE VOCê QUER SUA CONVERSÃO: ')
 print('[1] Binário')
