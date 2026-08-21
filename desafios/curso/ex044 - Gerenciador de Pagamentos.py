@@ -31,8 +31,13 @@ elif opc == 3:
     print('Não conseguimos fornecer nenhum desconto com essa opção!')
     print('O valor final será de R${:.2f}'.format(produto))
 elif opc == 4:
+    total = int(input('Quantas parcelas? '))
     juros = produto + (produto * 20/100)
+    parcela = juros / total
     print('Foi inserido a opção "3x OU MAIS NO CARTÃO DE CRÉDITO"')
     print('O produto custa R${:.2f}.'.format(produto))
     print('Vamos solicitar um juros de 20% para a sua compra!')
+    print('Sua compra será parcelada em {}x de R$ {:.2f}'.format(total, parcela))
     print('O valor final será de R${:.2f}'.format(juros))
+else:
+    print('Opção invalida!')

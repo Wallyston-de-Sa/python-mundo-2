@@ -10,7 +10,7 @@ if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado3:
     print('Os segmentos se tornaram um triângulo.')
     if lado1 == lado2 == lado3:
         print('É um triângulo EQUILÁTERO')
-    elif lado1 != lado2 != lado3:
+    elif lado1 != lado2 != lado3 != lado1:
         print('É um triângulo ESCALENO')
     else:
         print('É um triângulo ISÓSCELES')

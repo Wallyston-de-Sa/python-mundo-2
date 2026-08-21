@@ -1,5 +1,5 @@
 # Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com a média atingida: - Média abaixo de 5.0: REPROVADO. - Média entre 5., e 6.9: RECUPERAÇÃO. - Média 7.0 ou superior: APROVADO.
-# Cores
+
 # Cores
 cor = {
     'limpa': '\033[m',
@@ -17,7 +17,7 @@ media = (nota1 + nota2) / 2
 
 # Saída de resultados
 print('-'*30)
-print('Sua média é {}'.format(media))
+print('Sua média é {:.1f}'.format(media))
 if media < 5.0:
     print('{}Você está reprovado!{}'.format(cor['vermelho'], cor['limpa']))
 elif media <= 6.9:

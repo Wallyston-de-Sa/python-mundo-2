@@ -15,6 +15,8 @@ print('\nVocê está com {} anos.'.format(idade))
 if idade == 18:
     print('Você deve se alistar nesse ano!')
 elif idade < 18:
-    print('Você não precisa se alistar agora. O ano do seu alistamento será em {}'.format(diferenca_novo))
+    saldo = 18 - idade
+    print('Você não precisa se alistar agora. O ano do seu alistamento será em {}, faltam {} anos.'.format(diferenca_novo, saldo))
 else:
-    print('Você já deveria ter se alistado em {}. O tempo passa rápido! '.format(diferenca_velho))
+    saldo = idade - 18
+    print('Você já deveria ter se alistado em {}, {} anos atrás.'.format(diferenca_velho, saldo))
