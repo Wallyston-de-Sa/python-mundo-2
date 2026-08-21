@@ -1,0 +1,1 @@
+# Crie umprograma que mostre na tela todos os numéros pares que estão no intervalo 1 até 50
