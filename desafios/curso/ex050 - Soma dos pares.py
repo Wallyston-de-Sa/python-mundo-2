@@ -4,6 +4,8 @@
 soma = 0
 for num in range(1, 7):
     int(input('Digite {}ª número: '.format(num)))
-    if num % 2 == 0:
+    if num % 2 == 0: 
         soma += num
+
+# Saida de resultados
 print('A soma total de todos os números pares é {}'.format(soma))
