@@ -4,7 +4,6 @@
 cont = int(input('Digite o primeiro termo da PA: '))
 razao = int(input('Digite a razão dessa PA: '))
 
-
 #Saída de resultados
 print('Os 10 primeiros termos dessa progressão é:')
 for c in range(10):
