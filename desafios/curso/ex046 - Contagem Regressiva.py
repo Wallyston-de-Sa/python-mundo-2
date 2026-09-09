@@ -2,7 +2,7 @@
 
 from time import sleep
 
-# Saída de resaultados
+# Saída de resultados
 print('PREPAREM PARA OS FOGOS DE ARTIFÍCIO!')
 for fogos in range(10, -1, -1):
     print(fogos)
