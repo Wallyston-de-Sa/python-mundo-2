@@ -1,11 +1,11 @@
 # Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos
 
-# Entrada de dados
+# Contadores
 maior = 0
 menor = 0
 
 # Entrada de dados e processamento
-for p in range(1,6):
+for p in range(1, 6):
     peso = float(input('Digite o peso da {}º pessoa (Kg): '.format(p)))
 
     # Manipulação para o maior e menor peso
@@ -19,5 +19,5 @@ for p in range(1,6):
             menor = peso
 
 # Saída de resultados
-print('O maior peso é o {}'.format(maior))
-print('O menor peso é o {}'.format(menor))
+print('O maior peso é o {}Kg'.format(maior))
+print('O menor peso é o {}Kg'.format(menor))
