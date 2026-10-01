@@ -10,5 +10,10 @@ while not acertou:
     palpite += 1
     if jogador == pensar:
         acertou = True
+    else:
+        if jogador > pensar:
+            print('Menos... Tente novamente')
+        if jogador < pensar:
+            print('Mais... Tente novamente')
 print('Acertou!')
 print('Você acertou na {}º tentativa. '.format(palpite))
